@@ -1,3 +1,14 @@
 hi git!
 hello git!
+
+# 以下是冲突的原因
+
+<<<<<<< HEAD
 test test version2
+=======
+good morning!
+>>>>>>> 20b2cfab6a2d7ae407ec7170d58f67322dd05192
+
+# 解决冲突后，代码为
+test test version2
+good morning!
